@@ -19,7 +19,8 @@ public class SingleModel3 {
 	public SingleModel3(){
 		System.out.println("single 初始化");
 	}
-	//static成员是位于一个类的外部级别。
+	//静态内部类只是刚好写在了另一个类里面，实际上和外部类没什么附属关系。
+	//而私有的静态内部类只能被外类访问到。
 	private static  class loadLazy{
 		static {
 			System.out.println("loadlazy jingtai");
