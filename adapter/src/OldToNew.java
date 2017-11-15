@@ -8,7 +8,7 @@ public abstract class OldToNew implements OldInter{
 
 	@Override
 	public void method1() {
-
+    // SSS
 	}
 
 	@Override
