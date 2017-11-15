@@ -21,12 +21,12 @@ public class SingleModel3 {
 	}
 	//静态内部类只是刚好写在了另一个类里面，实际上和外部类没什么附属关系。
 	//而私有的静态内部类只能被外类访问到。
-	private static  class loadLazy{
+	private static  class LoadLazy{
 		static {
 			System.out.println("loadlazy jingtai");
 		}
 		//final 修饰的变量，不能再被初始化了。
-		public loadLazy(){       //当 类.静态成员 的时候，并不会执行构造方法，之后实例化才会。
+		public LoadLazy(){       //当 类.静态成员 的时候，并不会执行构造方法，之后实例化才会。
 			System.out.println("loadlazy");
 		}
 		private static final SingleModel3 SINGLE_MODEL=new SingleModel3();
@@ -36,7 +36,7 @@ public class SingleModel3 {
 	}
 	public static SingleModel3 getSingleModel(){
 		//真正调用了getSingleModel方法时，才会加载loadLazy。
-		return loadLazy.SINGLE_MODEL;
+		return LoadLazy.SINGLE_MODEL;
 	}
 	public static void get(){
 		System.out.println("singleModel3 static");

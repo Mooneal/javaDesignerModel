@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Factory/Factory.iml" filepath="$PROJECT_DIR$/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/adapter/adapter.iml" filepath="$PROJECT_DIR$/adapter/adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chainHandler/chainHandler.iml" filepath="$PROJECT_DIR$/chainHandler/chainHandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaDesignerModel.iml" filepath="$PROJECT_DIR$/.idea/javaDesignerModel.iml" />
     </modules>
   </component>
