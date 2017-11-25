@@ -9,8 +9,6 @@ import org.junit.Test;
  */
 
 public class FactoryDemo {
-
-
 	/**
 	 *  简单工厂
 	 */
